@@ -11,7 +11,7 @@ local cmd = vim.cmd
 keymap.set("n", "<leader>wv", "<C-w>v") -- split window vertically
 keymap.set("n", "<leader>wh", "<C-w>s") -- split window horizontally
 keymap.set("n", "<leader>we", "<C-w>=") -- make split windows equal width & height
-keymap.set("n", "<leader>wr", "<C-w>r") -- close current split window
+keymap.set("n", "<leader>wr", "<C-w>r") -- rotate windows
 keymap.set("n", "<leader>wx", ":close<CR>") -- close current split window
 
 -- tabs
