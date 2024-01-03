@@ -26,3 +26,4 @@ keymap.set("n", "<leader>tp", ":tabp<CR>") --  go to previous tab
 
 -- file tree
 keymap.set("n", "<F2>", ":NvimTreeOpen<Enter>") -- open file tree
+
