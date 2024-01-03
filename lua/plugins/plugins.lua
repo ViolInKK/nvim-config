@@ -33,15 +33,3 @@ Plug 'j-hui/fidget.nvim'
 Plug 'simrat39/rust-tools.nvim'
 
 vim.call('plug#end')
-
---local lspconfig = require('lspconfig')
-
---lspconfig.rust_analyzer.setup({})
-
---require('fidget').setup()
-require('lualine').setup()
-require('nvim-tree').setup({
-    view = {
-        width = 25,
-    }
-})
