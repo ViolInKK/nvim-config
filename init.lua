@@ -7,6 +7,7 @@ require("core.colorscheme")
 require('lualine').setup()
 require('nvim-tree').setup({
     view = {
+        preserve_window_proportions = true,
         width = 25,
     }
 })
