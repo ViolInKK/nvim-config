@@ -13,6 +13,7 @@ keymap.set("n", "<leader>wh", "<C-w>s") -- split window horizontally
 keymap.set("n", "<leader>we", "<C-w>=") -- make split windows equal width & height
 keymap.set("n", "<leader>wr", "<C-w>r") -- rotate windows
 keymap.set("n", "<leader>wx", ":close<CR>") -- close current split window
+keymap.set("n", "<leader>wt", "<C-w>s<C-w>15-<Enter>:terminal<Enter>") -- open terminal in new horizontal window
 
 -- tabs
 keymap.set("n", "<leader>to", ":tabnew<CR>") -- open new tab
