@@ -32,4 +32,6 @@ Plug 'j-hui/fidget.nvim'
 
 Plug 'simrat39/rust-tools.nvim'
 
+Plug 'romgrk/barbar.nvim'
+
 vim.call('plug#end')
