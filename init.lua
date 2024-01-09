@@ -11,4 +11,7 @@ require('nvim-tree').setup({
         width = 25,
     }
 })
+require('barbar').setup({
+    animation = false
+})
 require('autoclose').setup()
