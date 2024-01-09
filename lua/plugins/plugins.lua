@@ -34,4 +34,6 @@ Plug 'simrat39/rust-tools.nvim'
 
 Plug 'romgrk/barbar.nvim'
 
+Plug 'm4xshen/autoclose.nvim'
+
 vim.call('plug#end')
