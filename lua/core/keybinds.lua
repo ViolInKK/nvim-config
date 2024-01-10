@@ -3,6 +3,7 @@ vim.g.mapleader = " "
 local keymap = vim.keymap
 local cmd = vim.cmd
 local opts = { noremap = true, silent = true }
+local builtin = require('telescope.builtin')
 
 ---------------------
 -- General Keymaps
@@ -51,3 +52,10 @@ keymap.set("t", "<C-w>l", "<C-\\><C-n><C-w>l") -- move out of terminal right
 
 -- File tree
 keymap.set("n", "<F2>", ":NvimTreeOpen<Enter>") -- open file tree
+
+-- Fuzzy Finder(Telescope)
+keymap.set("n", "<leader>ff", builtin.find_files)
+keymap.set("n", "<leader>fb", builtin.buffers)
+keymap.set("n", "<leader>fh", builtin.help_tags)
+keymap.set("n", "<leader>fg", builtin.git_commits)
+
