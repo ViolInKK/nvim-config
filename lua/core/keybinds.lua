@@ -59,3 +59,5 @@ keymap.set("n", "<leader>fb", builtin.buffers)
 keymap.set("n", "<leader>fh", builtin.help_tags)
 keymap.set("n", "<leader>fg", builtin.git_commits)
 
+-- Open links
+keymap.set("n", "<leader>gx", "<Cmd>VisitLinkUnderCursor<CR>")

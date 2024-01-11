@@ -15,3 +15,4 @@ require('barbar').setup({
     animation = false
 })
 require('autoclose').setup()
+require('link-visitor').setup()
