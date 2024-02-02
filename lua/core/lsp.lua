@@ -38,7 +38,7 @@ local function on_attach(client, buffer)
     vim.keymap.set("n", "gr", vim.lsp.buf.references, keymap_opts)
     vim.keymap.set("n", "g0", vim.lsp.buf.document_symbol, keymap_opts)
     vim.keymap.set("n", "gW", vim.lsp.buf.workspace_symbol, keymap_opts)
-    vim.keymap.set("n", "gd", vim.lsp.buf.definition, keymap_opts) 
+    vim.keymap.set("n", "gd", vim.lsp.buf.definition, keymap_opts)
 end
 
 local opts = {

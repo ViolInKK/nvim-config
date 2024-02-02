@@ -61,3 +61,6 @@ keymap.set("n", "<leader>fg", builtin.git_commits)
 
 -- Open links
 keymap.set("n", "<leader>gx", "<Cmd>VisitLinkUnderCursor<CR>")
+
+-- Lazygit
+keymap.set("n", "<leader>gg", "<Cmd>LazyGit<CR>")
