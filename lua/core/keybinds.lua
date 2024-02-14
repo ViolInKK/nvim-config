@@ -22,8 +22,8 @@ keymap.set("n", "<leader>to", ":tabnew<CR>") -- open new tab
 keymap.set("n", "<leader>tx", "<Cmd>BufferClose<CR>", opts) -- close tab 
 
 -- Move to previous/next
-keymap.set("n", "<leader>tn", "<Cmd>BufferPrevious<CR>", opts)
-keymap.set("n", "<leader>tp", "<Cmd>BufferNext<CR>", opts)
+keymap.set("n", "<leader>tp", "<Cmd>BufferPrevious<CR>", opts)
+keymap.set("n", "<leader>tn", "<Cmd>BufferNext<CR>", opts)
 
 -- Goto buffer in position ...
 keymap.set("n", "<leader>t1", "<Cmd>BufferGoto 1<CR>", opts)
