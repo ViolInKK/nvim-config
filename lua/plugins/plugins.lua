@@ -30,7 +30,7 @@ Plug 'simrat39/rust-tools.nvim'
 
 Plug 'wbthomason/packer.nvim'
 -- automaticly close {}, "", etc.
-Plug 'm4xshen/autoclose.nvim'
+-- Plug 'm4xshen/autoclose.nvim'
 
 Plug 'nvim-lua/plenary.nvim'
 
@@ -47,3 +47,5 @@ Plug 'romgrk/barbar.nvim'
 Plug 'kdheepak/lazygit.nvim'
 
 vim.call('plug#end')
+
+
