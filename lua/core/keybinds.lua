@@ -37,9 +37,6 @@ keymap.set("n", "<leader>t8", "<Cmd>BufferGoto 8<CR>", opts)
 keymap.set("n", "<leader>t9", "<Cmd>BufferGoto 9<CR>", opts)
 keymap.set("n", "<leader>t0", "<Cmd>BufferLast<CR>", opts)
 
-
-
-
 -- Move out of terminal
 keymap.set("t", "<C-w>j", "<C-\\><C-n><C-w>j") -- move out of terminal down
 keymap.set("t", "<C-w>k", "<C-\\><C-n><C-w>k") -- move out of terminal up

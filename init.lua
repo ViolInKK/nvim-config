@@ -12,7 +12,17 @@ require('nvim-tree').setup({
     }
 })
 require('barbar').setup({
-    animation = false
+    animation = false,
+    exclude_name = {'bash'},
 })
 --require('autoclose').setup()
 require('link-visitor').setup()
+
+-- Disable autocomment on new line.
+
+-- The reason we do it like this instead of setting up option in config
+-- Is because some files are sourced after init.lua overwriting this value.
+
+-- https://neovim.discourse.group/t/options-formatoptions-not-working-when-put-in-init-lua/3746/2
+
+vim.cmd([[autocmd BufEnter * set formatoptions-=cro]])

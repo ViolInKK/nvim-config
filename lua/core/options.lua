@@ -22,9 +22,9 @@ opt.smartcase = true
 opt.splitbelow = true 
 
 -- clipboard
-opt.clipboard= "unnamed"
+opt.clipboard = "unnamed"
 
 -- spelling
 opt.spelllang = { "en_us" }
-opt.spell = true
+opt.spell = false
 
