@@ -46,6 +46,8 @@ Plug 'romgrk/barbar.nvim'
 -- git interface
 Plug 'kdheepak/lazygit.nvim'
 
+Plug 'nvim-treesitter/nvim-treesitter'
+
 vim.call('plug#end')
 
 
