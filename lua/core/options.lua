@@ -13,6 +13,9 @@ opt.expandtab = true
 -- line wrapping
 opt.wrap = true
 opt.linebreak = true
+
+-- vertical line
+opt.colorcolumn = "80"
  
 -- search settings
 opt.ignorecase = true
